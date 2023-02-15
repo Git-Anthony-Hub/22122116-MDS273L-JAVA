@@ -1,1 +1,1 @@
-<img src="flow_chart.jpg>
+![Alt text](flow_chart.jpg "Title")
