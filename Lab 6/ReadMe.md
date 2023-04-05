@@ -9,3 +9,6 @@
 * This program reads the text file and splitted the text by words and saved into array variable and the above functions are performed on that array and respective results are produced.
 * there are 6  functions to implement the six tasks asked.
 * And no Global variables are were used.
+
+# Flow Chart:
+[Flow chart](flow chart raw.drawio.png "image")
