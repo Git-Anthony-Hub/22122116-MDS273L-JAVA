@@ -6,9 +6,13 @@
 5. Top Five repeated characters and their count.
 6. Least FIve repeated characters and their count.
 
-* This program reads the text file and splitted the text by words and saved into array variable and the above functions are performed on that array and respective results are produced.
+* This program reads the text file and splits the text by words and saved into array variable and the above functions are performed on that array and respective results are produced.
 * there are 6  functions to implement the six tasks asked.
 * And no Global variables are were used.
 
 # Flow Chart:
+<<<<<<< HEAD
 ![flow chart](flow_chart.jpg "image")
+=======
+![Flow chart](flow_chart_raw.png "image")
+>>>>>>> 93b0a853a833f407a0e2080801ad540bc1d50698
