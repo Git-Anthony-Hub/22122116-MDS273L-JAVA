@@ -1,8 +1,8 @@
 # In this java program we are finding the 5-point summary [Mean, Median, Mode, Min, Max] where we are fetching the data points from the famous Iris dataset csv file.
 
-## we will calulate the 5-point summary [Mean, Median, Mode, Min, Max] for the attributes SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm and the categories like Iris-setosa, Iris-versicolor, Iris-virginica.
+### we will calulate the 5-point summary [Mean, Median, Mode, Min, Max] for the attributes SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm and the categories like Iris-setosa, Iris-versicolor, Iris-virginica.
 
-## Below given is the flow chart for the about for the programe.
+### Below given is the flow chart for the about for the programe.
 
 ![Flow_Chart](flow_chart.png "png image")
 
