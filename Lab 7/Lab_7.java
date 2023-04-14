@@ -3,8 +3,10 @@ import java.io.*;
 import java.util.Arrays;
 
 public class Lab_7{
+//     to calculate the rows
     static int nrow = -1;
     
+//     function to calculate the mean of the values.
     public static void Mean(String[][] data){
         double setosa_sl = 0;
         double setosa_sw = 0;
@@ -57,6 +59,7 @@ public class Lab_7{
         
     }
 
+    //     function to calculate the meadin of the values.
     static void Median(double[] sl, double[] sw, double[] pl, double[] pw){   
 
         
@@ -68,7 +71,8 @@ public class Lab_7{
         } 
 
     }
-
+    
+    //     function to calculate the mode of the values.
     public static void Mode(double[] sl, double[] sw, double[] pl, double[] pw){
         System.out.println("sepalLength: "+ MaxFrequency(sl));
         System.out.println("sepalWidth: "+ MaxFrequency(sw));
@@ -76,6 +80,8 @@ public class Lab_7{
         System.out.println("PetalWidth: "+ MaxFrequency(pw) + "\n");
     }
 
+    
+    //     function to calculate the frequence of occurance of the given values.
     public static double MaxFrequency(double[] arr){
         HashMap<Double, Integer> count = new HashMap<>();
         for(double num : arr){
@@ -99,7 +105,9 @@ public class Lab_7{
         return key;
 
     }
-
+    
+    
+//     function to fetch the max value.
     public static void Max(double[] sl, double[] sw, double[] pl, double[] pw){
         
         System.out.println("sepalLength: "+ sl[sl.length - 1]);
@@ -108,6 +116,8 @@ public class Lab_7{
         System.out.println("PetalWidth: "+ pw[sl.length - 1] + "\n");
     }
 
+    
+    //     function to fetch the max value.
     public static void Min(double[] sl, double[] sw, double[] pl, double[] pw){
         
         System.out.println("sepalLength: "+ sl[1]);
@@ -116,7 +126,7 @@ public class Lab_7{
         System.out.println("PetalWidth: "+ pw[1] + "\n");
     }
 
-
+    //     function to to read csv file and store it in 2D array.
     static String[][] CSVReader_fun(){
         String[][] data = new String[200][6];
         try{
@@ -145,14 +155,14 @@ public class Lab_7{
             
         }
         
-    
+//     Main funtion.
     public static void main(String args[]){
         String[][] data = CSVReader_fun();
         String[][] setosa = new String[50][5];
 
         Mean(data);               
 
-        // logic for creating a sorted.
+        
         double[] setosa_sl = new double[51];
         double[] setosa_sw = new double[51];
         double[] setosa_pl = new double[51];
